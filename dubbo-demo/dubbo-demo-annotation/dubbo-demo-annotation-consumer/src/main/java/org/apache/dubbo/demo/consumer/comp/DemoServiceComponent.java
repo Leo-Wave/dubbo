@@ -24,6 +24,9 @@ import org.apache.dubbo.demo.DemoService;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * dubbo测试服务
+ */
 @Component("demoServiceComponent")
 public class DemoServiceComponent implements DemoService {
     @Reference
